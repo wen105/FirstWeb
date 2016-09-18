@@ -9,8 +9,11 @@ import java.util.List;
  * 学生表处理的接口类
  */
 public interface StudentDao {
-    public int addStudent(Student student);
-    public int deleteStudent(int stuId);
-    public List<Student>  findAllStudent();
-    public int updateStudent(Student student);
+    int addStudent(Student student);
+
+    int deleteStudent(int stuId);
+
+    List<Student> findAllStudent();
+
+    int updateStudent(Student student);
 }
